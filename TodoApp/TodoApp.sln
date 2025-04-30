@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{CC2AAD67-EE19-4B75-A826-12D1F906F1A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{CEE397B6-84A2-45F2-B515-6A7A454F4B1D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC2AAD67-EE19-4B75-A826-12D1F906F1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2AAD67-EE19-4B75-A826-12D1F906F1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2AAD67-EE19-4B75-A826-12D1F906F1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2AAD67-EE19-4B75-A826-12D1F906F1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE397B6-84A2-45F2-B515-6A7A454F4B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE397B6-84A2-45F2-B515-6A7A454F4B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE397B6-84A2-45F2-B515-6A7A454F4B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE397B6-84A2-45F2-B515-6A7A454F4B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEE397B6-84A2-45F2-B515-6A7A454F4B1D} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B148A374-18D0-464B-A537-1271B89E4C0B}
